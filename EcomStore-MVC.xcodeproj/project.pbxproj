@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207372D525CC4BD200C685AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207372D425CC4BD200C685AC /* AppDelegate.swift */; };
+		207372D725CC4BD200C685AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207372D625CC4BD200C685AC /* SceneDelegate.swift */; };
+		207372D925CC4BD200C685AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207372D825CC4BD200C685AC /* ViewController.swift */; };
+		207372DC25CC4BD200C685AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207372DA25CC4BD200C685AC /* Main.storyboard */; };
+		207372DE25CC4BD400C685AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207372DD25CC4BD400C685AC /* Assets.xcassets */; };
+		207372E125CC4BD400C685AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207372DF25CC4BD400C685AC /* LaunchScreen.storyboard */; };
+		207372EC25CC4BD500C685AC /* EcomStore_MVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207372EB25CC4BD500C685AC /* EcomStore_MVCTests.swift */; };
+		207372F725CC4BD500C685AC /* EcomStore_MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207372F625CC4BD500C685AC /* EcomStore_MVCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207372E825CC4BD500C685AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207372C925CC4BD200C685AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207372D025CC4BD200C685AC;
+			remoteInfo = "EcomStore-MVC";
+		};
+		207372F325CC4BD500C685AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207372C925CC4BD200C685AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207372D025CC4BD200C685AC;
+			remoteInfo = "EcomStore-MVC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207372D125CC4BD200C685AC /* EcomStore-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EcomStore-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207372D425CC4BD200C685AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207372D625CC4BD200C685AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		207372D825CC4BD200C685AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		207372DB25CC4BD200C685AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207372DD25CC4BD400C685AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207372E025CC4BD400C685AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207372E225CC4BD400C685AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207372E725CC4BD500C685AC /* EcomStore-MVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EcomStore-MVCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207372EB25CC4BD500C685AC /* EcomStore_MVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomStore_MVCTests.swift; sourceTree = "<group>"; };
+		207372ED25CC4BD500C685AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207372F225CC4BD500C685AC /* EcomStore-MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EcomStore-MVCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207372F625CC4BD500C685AC /* EcomStore_MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomStore_MVCUITests.swift; sourceTree = "<group>"; };
+		207372F825CC4BD500C685AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207372CE25CC4BD200C685AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372E425CC4BD500C685AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372EF25CC4BD500C685AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207372C825CC4BD200C685AC = {
+			isa = PBXGroup;
+			children = (
+				207372D325CC4BD200C685AC /* EcomStore-MVC */,
+				207372EA25CC4BD500C685AC /* EcomStore-MVCTests */,
+				207372F525CC4BD500C685AC /* EcomStore-MVCUITests */,
+				207372D225CC4BD200C685AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207372D225CC4BD200C685AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207372D125CC4BD200C685AC /* EcomStore-MVC.app */,
+				207372E725CC4BD500C685AC /* EcomStore-MVCTests.xctest */,
+				207372F225CC4BD500C685AC /* EcomStore-MVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207372D325CC4BD200C685AC /* EcomStore-MVC */ = {
+			isa = PBXGroup;
+			children = (
+				207372D425CC4BD200C685AC /* AppDelegate.swift */,
+				207372D625CC4BD200C685AC /* SceneDelegate.swift */,
+				207372D825CC4BD200C685AC /* ViewController.swift */,
+				207372DA25CC4BD200C685AC /* Main.storyboard */,
+				207372DD25CC4BD400C685AC /* Assets.xcassets */,
+				207372DF25CC4BD400C685AC /* LaunchScreen.storyboard */,
+				207372E225CC4BD400C685AC /* Info.plist */,
+			);
+			path = "EcomStore-MVC";
+			sourceTree = "<group>";
+		};
+		207372EA25CC4BD500C685AC /* EcomStore-MVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				207372EB25CC4BD500C685AC /* EcomStore_MVCTests.swift */,
+				207372ED25CC4BD500C685AC /* Info.plist */,
+			);
+			path = "EcomStore-MVCTests";
+			sourceTree = "<group>";
+		};
+		207372F525CC4BD500C685AC /* EcomStore-MVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207372F625CC4BD500C685AC /* EcomStore_MVCUITests.swift */,
+				207372F825CC4BD500C685AC /* Info.plist */,
+			);
+			path = "EcomStore-MVCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207372D025CC4BD200C685AC /* EcomStore-MVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207372FB25CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVC" */;
+			buildPhases = (
+				207372CD25CC4BD200C685AC /* Sources */,
+				207372CE25CC4BD200C685AC /* Frameworks */,
+				207372CF25CC4BD200C685AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EcomStore-MVC";
+			productName = "EcomStore-MVC";
+			productReference = 207372D125CC4BD200C685AC /* EcomStore-MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207372E625CC4BD500C685AC /* EcomStore-MVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207372FE25CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVCTests" */;
+			buildPhases = (
+				207372E325CC4BD500C685AC /* Sources */,
+				207372E425CC4BD500C685AC /* Frameworks */,
+				207372E525CC4BD500C685AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207372E925CC4BD500C685AC /* PBXTargetDependency */,
+			);
+			name = "EcomStore-MVCTests";
+			productName = "EcomStore-MVCTests";
+			productReference = 207372E725CC4BD500C685AC /* EcomStore-MVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207372F125CC4BD500C685AC /* EcomStore-MVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2073730125CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVCUITests" */;
+			buildPhases = (
+				207372EE25CC4BD500C685AC /* Sources */,
+				207372EF25CC4BD500C685AC /* Frameworks */,
+				207372F025CC4BD500C685AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207372F425CC4BD500C685AC /* PBXTargetDependency */,
+			);
+			name = "EcomStore-MVCUITests";
+			productName = "EcomStore-MVCUITests";
+			productReference = 207372F225CC4BD500C685AC /* EcomStore-MVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207372C925CC4BD200C685AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					207372D025CC4BD200C685AC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					207372E625CC4BD500C685AC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 207372D025CC4BD200C685AC;
+					};
+					207372F125CC4BD500C685AC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 207372D025CC4BD200C685AC;
+					};
+				};
+			};
+			buildConfigurationList = 207372CC25CC4BD200C685AC /* Build configuration list for PBXProject "EcomStore-MVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207372C825CC4BD200C685AC;
+			productRefGroup = 207372D225CC4BD200C685AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207372D025CC4BD200C685AC /* EcomStore-MVC */,
+				207372E625CC4BD500C685AC /* EcomStore-MVCTests */,
+				207372F125CC4BD500C685AC /* EcomStore-MVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207372CF25CC4BD200C685AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207372E125CC4BD400C685AC /* LaunchScreen.storyboard in Resources */,
+				207372DE25CC4BD400C685AC /* Assets.xcassets in Resources */,
+				207372DC25CC4BD200C685AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372E525CC4BD500C685AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372F025CC4BD500C685AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207372CD25CC4BD200C685AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207372D925CC4BD200C685AC /* ViewController.swift in Sources */,
+				207372D525CC4BD200C685AC /* AppDelegate.swift in Sources */,
+				207372D725CC4BD200C685AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372E325CC4BD500C685AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207372EC25CC4BD500C685AC /* EcomStore_MVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207372EE25CC4BD500C685AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207372F725CC4BD500C685AC /* EcomStore_MVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207372E925CC4BD500C685AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207372D025CC4BD200C685AC /* EcomStore-MVC */;
+			targetProxy = 207372E825CC4BD500C685AC /* PBXContainerItemProxy */;
+		};
+		207372F425CC4BD500C685AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207372D025CC4BD200C685AC /* EcomStore-MVC */;
+			targetProxy = 207372F325CC4BD500C685AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207372DA25CC4BD200C685AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207372DB25CC4BD200C685AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207372DF25CC4BD400C685AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207372E025CC4BD400C685AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207372F925CC4BD500C685AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207372FA25CC4BD500C685AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207372FC25CC4BD500C685AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207372FD25CC4BD500C685AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		207372FF25CC4BD500C685AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcomStore-MVC.app/EcomStore-MVC";
+			};
+			name = Debug;
+		};
+		2073730025CC4BD500C685AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcomStore-MVC.app/EcomStore-MVC";
+			};
+			name = Release;
+		};
+		2073730225CC4BD500C685AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EcomStore-MVC";
+			};
+			name = Debug;
+		};
+		2073730325CC4BD500C685AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSU6MWFWN4;
+				INFOPLIST_FILE = "EcomStore-MVCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.EcomStore-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EcomStore-MVC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207372CC25CC4BD200C685AC /* Build configuration list for PBXProject "EcomStore-MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207372F925CC4BD500C685AC /* Debug */,
+				207372FA25CC4BD500C685AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207372FB25CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207372FC25CC4BD500C685AC /* Debug */,
+				207372FD25CC4BD500C685AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207372FE25CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207372FF25CC4BD500C685AC /* Debug */,
+				2073730025CC4BD500C685AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2073730125CC4BD500C685AC /* Build configuration list for PBXNativeTarget "EcomStore-MVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2073730225CC4BD500C685AC /* Debug */,
+				2073730325CC4BD500C685AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207372C925CC4BD200C685AC /* Project object */;
+}
