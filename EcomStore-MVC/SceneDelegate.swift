@@ -19,7 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         window?.makeKeyAndVisible()
-        window?.rootViewController = ProductListController()
+        
+        let layout = UICollectionViewFlowLayout()
+        window?.rootViewController = ProductListController(layout: layout)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

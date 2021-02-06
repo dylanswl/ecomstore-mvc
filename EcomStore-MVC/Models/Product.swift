@@ -12,11 +12,13 @@ struct Product {
     let name: String
     let cost: Int
     let description: String
+    let imageName: String
     
-    init(name: String, cost: Int, description: String) {
+    init(name: String, cost: Int, description: String, imageName: String) {
         self.id = UUID()
         self.name = name
         self.cost = cost
         self.description = description
+        self.imageName = imageName
     }
 }
