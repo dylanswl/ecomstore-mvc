@@ -15,10 +15,13 @@ final class ProductListController: UICollectionViewController, UICollectionViewD
     private let itemsPerRow: CGFloat = 2
     
     // MARK: - Properties
-    private var sneaker1 = Product(name: "calvin", cost: 150, description: "calvin shoes", imageName: "calvin")
-    private var sneaker2 = Product(name: "puma", cost: 200, description: "not yeezys", imageName: "puma")
-    private var sneaker3 = Product(name: "nike", cost: 200, description: "joggers", imageName: "nike")
-    private lazy var products = [sneaker1, sneaker2, sneaker3]
+    private var products: [Product]? {
+        didSet {
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
+        }
+    }
     
     // MARK: - Init
     init(layout: UICollectionViewLayout) {
@@ -46,6 +49,9 @@ final class ProductListController: UICollectionViewController, UICollectionViewD
     
     // MARK: - Collection View DataSource
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        guard let products = products else {
+            return 0
+        }
         return products.count
     }
     
@@ -55,7 +61,7 @@ final class ProductListController: UICollectionViewController, UICollectionViewD
     
     override func collectionView(_ collectionView: UICollectionView,
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView .dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? ProductCell else {
+        guard let cell = collectionView .dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? ProductCell, let products = products else {
             return UICollectionViewCell()
         }
         let product = products[indexPath.row]
@@ -88,4 +94,7 @@ final class ProductListController: UICollectionViewController, UICollectionViewD
      }
     
     // MARK: - Helper Methods
+    func updateViewWith(products: [Product]) {
+        self.products = products
+    }
 }

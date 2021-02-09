@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: scene)
         window?.makeKeyAndVisible()
         
-        let layout = UICollectionViewFlowLayout()
-        window?.rootViewController = ProductListController(layout: layout)
+        let coordinator = HomeCoordinator()
+        window?.rootViewController = coordinator.navigationController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

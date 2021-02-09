@@ -19,6 +19,7 @@
 		2073732025CC502500C685AC /* Extensions+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2073731F25CC502500C685AC /* Extensions+Colors.swift */; };
 		2073732525CC564C00C685AC /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2073732425CC564C00C685AC /* ProductCell.swift */; };
 		2073732B25CC56CE00C685AC /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2073732A25CC56CE00C685AC /* Extensions+UIView.swift */; };
+		2073733425D2DA4300C685AC /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2073733325D2DA4300C685AC /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2073731F25CC502500C685AC /* Extensions+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Colors.swift"; sourceTree = "<group>"; };
 		2073732425CC564C00C685AC /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		2073732A25CC56CE00C685AC /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		2073733325D2DA4300C685AC /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		207372D325CC4BD200C685AC /* EcomStore-MVC */ = {
 			isa = PBXGroup;
 			children = (
+				2073733225D2DA2200C685AC /* Coordinators */,
 				2073731225CC4CA000C685AC /* Utilities */,
 				2073731125CC4C9100C685AC /* Models */,
 				2073731025CC4C8C00C685AC /* Views */,
@@ -186,6 +189,14 @@
 				2073732A25CC56CE00C685AC /* Extensions+UIView.swift */,
 			);
 			path = Layouts;
+			sourceTree = "<group>";
+		};
+		2073733225D2DA2200C685AC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				2073733325D2DA4300C685AC /* HomeCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 				2073731725CC4D7800C685AC /* Product.swift in Sources */,
 				207372D525CC4BD200C685AC /* AppDelegate.swift in Sources */,
 				2073732525CC564C00C685AC /* ProductCell.swift in Sources */,
+				2073733425D2DA4300C685AC /* HomeCoordinator.swift in Sources */,
 				2073732025CC502500C685AC /* Extensions+Colors.swift in Sources */,
 				207372D725CC4BD200C685AC /* SceneDelegate.swift in Sources */,
 			);
